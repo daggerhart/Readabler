@@ -1,0 +1,28 @@
+{
+  "name": "readabler",
+  "version": "1.0.0",
+  "description": "Based on underscores",
+  "theme": {
+    "name": "Readabler",
+    "uri": "",
+    "author": "Jonathan Daggerhart",
+    "authorUri": "",
+    "copyright": "",
+    "license": "",
+    "licenseUri": "",
+    "textDomain": "readabler",
+    "tags": "",
+    "additionalInfo": ""
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^1.0.0",
+    "grunt-contrib-imagemin": "^0.8.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-header": "^1.0.0",
+    "grunt-sass": "^0.18.1"
+  }
+}

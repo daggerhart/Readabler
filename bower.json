@@ -1,0 +1,22 @@
+{
+  "name": "Vanilla WordPress Theme",
+  "version": "1.0.0",
+  "homepage": "https://github.com/WordPress/WordPress",
+  "description": "Packages for Vanilla",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "sass/bower_components"
+  ],
+  "devDependencies": {
+    "fastclick": "https://raw.githubusercontent.com/ftlabs/fastclick/master/lib/fastclick.js",
+    "bourbon": "latest",
+    "neat": "latest",
+    "html5shiv-dist": "~3.6.2"
+  }
+}
