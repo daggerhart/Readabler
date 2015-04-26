@@ -1,10 +1,22 @@
+$breakpoint-sm-min: 0;
+$breakpoint-sm-max: 639px;
+$breakpoint-md-min: 640px;
+$breakpoint-md-max: 100%;
+
 $color__background-body: #fff;
 $color__background-masthead: #f8f8f8;
 $color__background-screen: #f1f1f1;
 $color__background-hr: #ccc;
 $color__background-button: #e6e6e6;
-$color__background-pre: #eee;
+$color__background-code: #f9f9f9;
+$color__background-pre: #393939;
 $color__background-ins: #fff9c0;
+
+$color__border-button: #ccc #ccc #bbb;
+$color__border-button-hover: #ccc #bbb #aaa;
+$color__border-button-focus: #aaa #bbb #bbb;
+$color__border-input: #ccc;
+$color__border-abbr: #666;
 
 $color__text-screen: #21759b;
 $color__text-input: #666;
@@ -13,14 +25,11 @@ $color__link: #21759b;
 $color__link-visited: $color__link;
 $color__link-hover: darken( $color__link, 10% );
 $color__text-main: #404040;
+$color__text-code: $color__text-main;
+$color__text-pre: #b8c4cd;
 
-$color__border-button: #ccc #ccc #bbb;
-$color__border-button-hover: #ccc #bbb #aaa;
-$color__border-button-focus: #aaa #bbb #bbb;
-$color__border-input: #ccc;
-$color__border-abbr: #666;
-
-$breakpoint-sm-min: 0;
-$breakpoint-sm-max: 639px;
-$breakpoint-md-min: 640px;
-$breakpoint-md-max: 100%;
+$font__main: 'Merriweather', serif;
+$font__headers: 'Lato', sans-serif;
+$font__code: 'Inconsolata', "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.8;
+$font__line-height-pre: 1.4;

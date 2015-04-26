@@ -101,6 +101,7 @@ module.exports = function(grunt) {
             options: {
                 sourceMap: false
             },
+          /*
             main: {
                 files: {
                     'js/main.js': [
@@ -122,6 +123,7 @@ module.exports = function(grunt) {
                     ]
                 }
             }
+            */
         },
 
         // image optimization
